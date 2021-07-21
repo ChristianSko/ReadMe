@@ -17,12 +17,21 @@ class LibraryViewController: UITableViewController {
     
     
     // MARK: - Data Source
-    override func numberOfSections(in tableView: UITableView) -> Int {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         50
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = tableView.dequeueReusableCell(withIdentifier: "BookCell", for: indexPath)
+        let book = Book(
+            title: "Title \(indexPath)",
+            author: "Author \(indexPath)",
+            image: UIImage(systemName: "\(indexPath.row).square.fill")!
+        )
+        cell.textLabel?.text = book.title
+        cell.imageView?.image = book.image
+        
+        return cell
     }
 
 }
