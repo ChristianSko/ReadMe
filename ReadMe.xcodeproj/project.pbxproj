@@ -15,6 +15,7 @@
 		D6132D2226A7665B003FCF11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6132D2026A7665B003FCF11 /* LaunchScreen.storyboard */; };
 		D6132D2A26A767CF003FCF11 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6132D2926A767CF003FCF11 /* Book.swift */; };
 		D6132D2C26A8C61D003FCF11 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6132D2B26A8C61D003FCF11 /* Library.swift */; };
+		D6B6967C26A9E75700016A32 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B6967B26A9E75700016A32 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D6132D2326A7665B003FCF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6132D2926A767CF003FCF11 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		D6132D2B26A8C61D003FCF11 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		D6B6967B26A9E75700016A32 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				D6132D1726A7665A003FCF11 /* SceneDelegate.swift */,
 				D6132D1926A7665A003FCF11 /* LibraryViewController.swift */,
 				D6132D1B26A7665A003FCF11 /* Main.storyboard */,
+				D6B6967B26A9E75700016A32 /* DetailViewController.swift */,
 				D6132D2B26A8C61D003FCF11 /* Library.swift */,
 				D6132D2926A767CF003FCF11 /* Book.swift */,
 				D6132D1E26A7665B003FCF11 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 				D6132D2A26A767CF003FCF11 /* Book.swift in Sources */,
 				D6132D1A26A7665A003FCF11 /* LibraryViewController.swift in Sources */,
 				D6132D2C26A8C61D003FCF11 /* Library.swift in Sources */,
+				D6B6967C26A9E75700016A32 /* DetailViewController.swift in Sources */,
 				D6132D1626A7665A003FCF11 /* AppDelegate.swift in Sources */,
 				D6132D1826A7665A003FCF11 /* SceneDelegate.swift in Sources */,
 			);
