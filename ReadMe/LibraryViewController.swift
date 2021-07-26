@@ -24,6 +24,11 @@ class LibraryViewController: UITableViewController {
     }
 
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.reloadData()
+    }
+    
     
     // MARK: - Data Source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

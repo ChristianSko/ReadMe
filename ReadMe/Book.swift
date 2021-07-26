@@ -12,6 +12,6 @@ struct Book {
     let author: String
     
     var image: UIImage {
-        LibrarySymbol.letterSquare(letter: title.first).image
+        Library.loadImage(forBook: self) ?? LibrarySymbol.letterSquare(letter: title.first).image
     }
 }
