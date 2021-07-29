@@ -25,6 +25,7 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         imageView.image = book.image
+        imageView.layer.cornerRadius = 16
         titleLabel.text = book.title
         authorLabel.text = book.author
     }
