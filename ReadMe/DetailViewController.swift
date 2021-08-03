@@ -7,13 +7,15 @@
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class DetailViewController: UITableViewController {
     
     let book: Book
     
     @IBOutlet var titleLabel: UILabel!
     @IBOutlet var authorLabel: UILabel!
     @IBOutlet var imageView: UIImageView!
+    @IBOutlet var reviewTextView: UITextView!
+    
     
     @IBAction func updateImage() {
         let imagePicker = UIImagePickerController()
