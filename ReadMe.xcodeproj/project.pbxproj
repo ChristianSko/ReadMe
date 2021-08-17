@@ -17,6 +17,7 @@
 		D6132D2C26A8C61D003FCF11 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6132D2B26A8C61D003FCF11 /* Library.swift */; };
 		D618D16526B316AB0000FBAE /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D618D16426B316AB0000FBAE /* BookCell.swift */; };
 		D6B6967C26A9E75700016A32 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B6967B26A9E75700016A32 /* DetailViewController.swift */; };
+		D6D2279B26CC70FA001CDC2E /* NewBookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D2279A26CC70FA001CDC2E /* NewBookTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D6132D2B26A8C61D003FCF11 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		D618D16426B316AB0000FBAE /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 		D6B6967B26A9E75700016A32 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D6D2279A26CC70FA001CDC2E /* NewBookTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBookTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				D618D16426B316AB0000FBAE /* BookCell.swift */,
 				D6132D1B26A7665A003FCF11 /* Main.storyboard */,
 				D6B6967B26A9E75700016A32 /* DetailViewController.swift */,
+				D6D2279A26CC70FA001CDC2E /* NewBookTableViewController.swift */,
 				D6132D2B26A8C61D003FCF11 /* Library.swift */,
 				D6132D2926A767CF003FCF11 /* Book.swift */,
 				D6132D1E26A7665B003FCF11 /* Assets.xcassets */,
@@ -155,6 +158,7 @@
 				D618D16526B316AB0000FBAE /* BookCell.swift in Sources */,
 				D6B6967C26A9E75700016A32 /* DetailViewController.swift in Sources */,
 				D6132D1626A7665A003FCF11 /* AppDelegate.swift in Sources */,
+				D6D2279B26CC70FA001CDC2E /* NewBookTableViewController.swift in Sources */,
 				D6132D1826A7665A003FCF11 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
