@@ -8,29 +8,42 @@
 import UIKit
 
 class NewBookTableViewController: UITableViewController {
-    
-    let book: Book
-    
-    @IBOutlet var titleLabel: UILabel!
-    @IBOutlet var titleTextfield: UIImageView!
-    @IBOutlet var authorLabel: UILabel!
+
+    @IBOutlet var titleTextfield: UITextField!
     @IBOutlet var authorTextfield: UITextField!
-    @IBOutlet var imageView: UIImageView!
+    @IBOutlet var bookImageView: UIImageView!
+    
+    @IBAction func updateImage() {
+        
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        bookImageView.layer.cornerRadius = 16
         
     }
     
-    required init?(coder: NSCoder) {fatalError("This should have never been called!") }
-    
-    init?(coder: NSCoder, book: Book) {
-        self.book = book
-        super.init(coder: coder)
-        
+
+}
+
+extension NewBookTableViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        guard let selectedImage = info[.editedImage] as? UIImage else {return}
+        bookImageView.image = selectedImage
+        dismiss(animated: true)
     }
 }
 
-extension NewBookTableViewController {
-    
+
+extension NewBookTableViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        if textField == titleTextfield {
+            return authorTextfield.becomeFirstResponder()
+        } else {
+            return textField.resignFirstResponder()
+        }
+    }
 }
+
+
